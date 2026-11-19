@@ -17,11 +17,11 @@
 
 Manifold Atlas is a vector-native research tool for studying how large language models organise meaning geometrically. It uses embedding APIs from multiple AI providers to collect coordinates from the manifold, then computes distances, clusters, projections, and topological features that reveal the geometry's structure. It also maps the discursive grammars LLM text generation falls into — the "Not X but Y" family of antithetical constructions — against the actual cosine geometry of the fragments they claim to oppose, surfacing what the tool calls the *synthetic dialectic*: rhetoric performing thesis-and-antithesis while the underlying geometric move is a slight rotation between near-neighbours.
 
-![Manifold Atlas, with Concept Distance computed across four models](docs/overview.png)
+![Manifold Atlas in use: Concept Distance typed and computed across models, the Negation Gauge, Vector Walk, and the Hegemony Compass](docs/manifold-atlas-tour.gif)
 
-*Manifold Atlas: the comparative instrument for reading the geometry of embedding models. Concept Distance computed across four locally-run models.*
+*Manifold Atlas in use, on three locally-run Ollama models: Concept Distance measuring `democracy` against `surveillance`, the Negation Gauge testing a claim against its denial, Vector Walk crossing the manifold, and the Hegemony Compass. No key is needed for any of it.*
 
-<sub>Screenshot from Manifold Atlas v1.19.0.</sub>
+<sub>Recorded from v1.19.7. A still of Concept Distance alone is at [docs/overview.png](docs/overview.png).</sub>
 
 The tool operationalises [vector theory](https://doi.org/10.1007/s13347-026-01162-w) as set out by David M. Berry. This includes the embedding API as telescope, the manifold as the object of study, and cosine similarity as the primary instrument. Without the framework, the numbers are curiosities. With it, they are evidence for geometric ideology, the negation deficit, and the proprietary encoding of human language.
 
